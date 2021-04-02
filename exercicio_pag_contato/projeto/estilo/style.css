@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kiwi Maru', serif;
+}
+.clear{
+    clear: both;
+}
+.oculto{
+    display: none;
+}
+.visivel{
+    display: block;
+}
+.mensagem_sucesso{
+    text-align: center;
+    position: absolute !important;
+    width: 100%;
+}
+
+nav img{
+    margin-left: 100px;
+    width: 120px;
+    height: 50px;
+}
+
+nav .dropdown button{
+    margin-right: 100px;
+}
+
+nav .dropdown .dropdown-menu a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #dcdcdc;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h6{
+    text-align: center;
+    padding: 7px 0;
+}
+
+footer h6 a{
+    color: black;
+}
+
+footer h6 a:hover{
+    color: black;
+}
+
+section.contato h3{
+    text-align: center;padding: 5px 0;
+    width: 700px;
+    margin: 20px auto;
+    background-color: rgba(220, 220, 200, 0.3);
+    border-left: 5px solid #dcdcdc;
+    border-right: 5px solid #dcdcdc;
+}
+
+section.contato .formulario{
+    width: 60%;
+    padding: 0 40px;
+    float: left;
+    border-right: 1px dashed black;
+}
+
+section.contato .formulario .titulo{
+    background-color: rgba(220, 220, 200, 0.3);
+    margin: 30px auto;
+    border-left: 5px solid #dcdcdc;
+    border-right: 5px solid #dcdcdc;
+}
+
+section.contato .formulario .titulo h4{
+    text-align: center;
+    padding: 5px 0;
+}
+
+section.contato .formulario form .textarea span{
+    width: 100%;
+}
+
+section.contato .formulario form a{
+    margin-top: 15px;
+    float: left;
+}
+section.contato .formulario form a:hover{
+    border: 1px solid black;
+}
+
+section.contato .formulario form input[type="submit"]{
+    margin-top: 15px;
+    float: right;
+}
+section.contato .formulario form input[type="submit"]:hover{
+    border: 1px solid black;
+}
+
+section.contato .boxr{
+    float: right;
+    width: 40%;
+    padding: 0 40px;
+}
+
+section.contato .boxr .titulo{
+    background-color: rgba(220, 220, 200, 0.3);
+    margin: 30px auto;
+    border-left: 5px solid #dcdcdc;
+    border-right: 5px solid #dcdcdc;
+    width: 100%;
+}
+
+section.contato .boxr .titulo h4{
+    text-align: center;
+    padding: 5px 0;
+}
+
+section.contato .boxr .lista{
+    margin-left: 15px;
+}
+
+section.contato .boxr .lista ul li{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+section.contato .boxr .lista ul ul{
+    list-style-type: none;
+}
+
+section.contato .boxr .lista ul ul li a{
+    color: black;
+}
+
+section.contato .boxr .lista ul ul li a img{
+    width: 20px;
+}
+
+section.contato .boxr .lista ul li.amd{
+    transition: 1s;
+    margin-left: 70px;
+}
+
+section.contato .boxr .lista ul ul li.amd{
+    margin-left: 85px;
+}
+
+section.login .box_login{
+    width: 500px;
+    min-width: 300px;
+    height: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 41px -4px rgba(0,0,0,0.75);
+}
+
+section.login .box_login h3{
+    padding-top: 10px;
+    text-align: center;
+}
+
+section.login .box_login img{
+    width: 120px;
+    margin: 50px auto 20px auto;
+    display: flex;
+}
+
+section.login .box_login .formulario_login{
+    width: 300px;
+    margin: 0 auto;
+}
+
+section.painel form input{
+    width: 100%;
+}
+
+section.painel .card{
+    width: 80%;
+    min-width: 400px;
+    margin: 30px auto;
+}
+
+section.painel .card .card-header{
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 850px){
+    section.contato h3{
+        width: 80%;
+    }
+    section.contato .formulario{
+        float: none;
+        width: 100%;
+    }
+    section.contato .boxr{
+        float: none;
+        width: 100%;
+    }
+    footer{
+        position: static !important;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    nav img{
+        margin-left: 20px;
+    }
+    nav .dropdown button{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    section.login .box_login{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    nav .dropdown a.btn,
+    nav .dropdown button.btn{
+        font-size: 10px;
+    }
+    section.login .box_login .formulario_login{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    nav .dropdown a.btn,
+    nav .dropdown button.btn{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-height: 715px){
+    footer{
+        position: static !important;
+        margin-top: 15px;
+    }
+}

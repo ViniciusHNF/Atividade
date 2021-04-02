@@ -1,0 +1,7 @@
+	Desenvolvido por: Vinicius Henrique
+
+	Meu site: https://viniciushnf.com/
+	Site desse projeto: https://projetos.viniciushnf.com/contato_form/
+
+	OBS: para o sistema funcionar corretamente, tem que importar o arquivo .sql no phpMyAdmin
+
